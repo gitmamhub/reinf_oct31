@@ -11,7 +11,7 @@ class TestTeam < MiniTest::Test
     hash_copy = {
         team_name: 'pilot',
         level: 'learner',
-        # points: 0
+        points: 0
     }
 
     assert_equal hash_copy, hash_1.to_hash
